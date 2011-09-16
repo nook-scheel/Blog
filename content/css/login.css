@@ -1,0 +1,77 @@
+body {
+	margin: 0px;
+	background: url('../img/bg_pattern.png') repeat-x;
+	font-family: Tahoma;
+	font-size: 12px;
+}
+#container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	background: #ccc;
+	width: 300px;
+	margin-top: -100px;
+	margin-left: -150px;
+}
+#login {
+	width: 300px;
+}
+#login .header {
+	height: 51px;
+	background: url('../img/login_header.png');
+}
+#login .header_text {
+	position: relative;
+	left: 15px;
+	top: 12px;
+	width: 750px;
+	color: #5a87a0;
+}
+#login .login_body {
+	background: url('../img/login_body_fill.png') repeat-y;
+	height: 125px;
+	padding-top: 2px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 10px; 
+	line-height: 18px;
+	color: #325f78;
+}
+.login_body .second{
+	margin: 10px;
+}
+.login_body .text{
+	padding: 4px;
+	float: left;
+	width: 50px;
+}
+.input input{
+	padding: 4px;
+	color: #325f78;
+	border: 1px solid #C0C0C0;
+	width: 170px;
+}
+.input .submit {
+	float: left;
+	width: 97px;
+	height: 37px;
+	margin-right: 22px;
+	background: url('../img/login_submit.png');
+}
+
+.input .submit:hover {
+	background-position: left -37px;
+}
+#login .footer {
+	width: 300px;
+	height: 9px;
+	background: url('../img/login_body_bottom.png');
+}
+code {
+ background-color: #f9f9f9;
+ border: 1px solid #D0D0D0;
+ color: #002166;
+ display: block;
+ margin: 14px 0 14px 0;
+ padding: 12px 10px 12px 10px;
+}
